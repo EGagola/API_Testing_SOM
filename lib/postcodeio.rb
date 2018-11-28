@@ -14,5 +14,4 @@ class Postcodesio
   def multiple_postcodes_service
     MultiplePostcodesService.new
   end
-
 end
