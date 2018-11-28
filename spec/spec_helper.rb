@@ -1,5 +1,6 @@
 require 'rspec'
+require_relative '../lib/postcodeio'
 
-RSPEC.configure do |config|
+RSpec.configure do |config|
   config.formatter = :documentation
 end
